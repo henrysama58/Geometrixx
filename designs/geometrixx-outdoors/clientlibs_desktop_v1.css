@@ -9747,7 +9747,7 @@ html .community .fc,
     /* start of transparency styles */
     opacity: 0;
     -moz-opacity: 0;
-    filter:alpha(opacity:0);
+    filter:alpha(opacity=0);
     /* end of transparency styles */
     background: red;
     z-index: 2; /* bring the real upload interactivity up front */
@@ -11164,7 +11164,7 @@ html .community .fc,
     -moz-border-radius: 4px; 
     -ms-border-radius: 4px; 
     -o-border-radius: 4px; 
-    -webkit-border-radius: 4px;)
+    -webkit-border-radius: 4px;
 }
 
 .page-product .styled-select:hover {
